@@ -5,10 +5,6 @@
 *, ::before, ::after {
     box-sizing: border-box;
 }
-* {
-    border: solid 1px black;
-    
-}
 
 body {
     display: flex;
@@ -32,6 +28,7 @@ button {
     display: inline-block;
     width: fit-content;
     height: fit-content;
+    font-size: 20px;
 }
 
 button:hover {
@@ -59,6 +56,7 @@ h3 {
     display: flex;  
     justify-content: space-between;
     align-items: center;
+    background-color: #1F2937;
 }
 
 ul {
@@ -66,7 +64,7 @@ ul {
     display: flex;
     padding: 0;
     margin: 0;
-    gap: 12px;
+    gap: 20px;
 }
 
 a, .hero > p {
@@ -93,6 +91,10 @@ a {
 .hero { 
     
     flex: 1;
+}
+
+.hero button {
+    border: none;
 }
 
 h1 {  
@@ -125,12 +127,17 @@ h2 {
     display: flex;
     justify-content:space-evenly;
     gap: 5px;
+    margin-top: 60px;
+}
+
+.showcase p {
+    font-style: italic;
 }
 .items {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    align-items: flex-start;
+    justify-content: flex-start;
 }
 
 .items > img {
@@ -138,10 +145,12 @@ h2 {
     border-radius: 5px;
     width: 150px;
     height: 150px;
+    
 }
 
-.items > p {
+.items p {
     width: 150px;
+    word-break: break-word;
 }
 
 /* Section 3 */
@@ -162,14 +171,14 @@ h2 {
     font-weight: lighter;
     font-style: italic;
     color: #1F2937;
-    margin-bottom: 0;
+    margin-bottom: 20px;
     margin-top: 0;
 }
 
 .author {
     text-align: right;
     width: 900px;
-    margin-top: 0;
+    margin-top: 5px;
     font-weight: bold;
     font-size: 24px;
 }
@@ -177,11 +186,11 @@ h2 {
 /* Section 4 */
 
 .join-us {
-    height: 30vh;
+    height: 40vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 0 170px;
+    padding: 100px 170px;
 }
 
 
@@ -221,3 +230,10 @@ h2 {
     border: solid 1px white;
 }
 
+/* footer */
+
+.footer {
+    color: #E5E7EB;
+    text-align: center;
+    padding: 20px;
+}
