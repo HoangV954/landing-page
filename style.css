@@ -121,8 +121,8 @@ h2 {
 
 .showcase {
     display: flex;
-    justify-content:space-around;
-    gap: 30px;
+    justify-content:space-evenly;
+    gap: 5px;
 }
 .items {
     display: flex;
@@ -142,3 +142,32 @@ h2 {
     width: 150px;
 }
 
+/* Section 3 */
+
+.quote {
+    background-color: #E5E7EB;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.quote > .d-quote {
+    max-width: 900px;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1F2937;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.author {
+    text-align: right;
+    width: 900px;
+    margin-top: 0;
+    font-weight: bold;
+    font-size: 24px;
+}
