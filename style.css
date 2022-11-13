@@ -30,6 +30,8 @@ button {
     padding: 5px 20px;
     cursor: pointer;
     display: inline-block;
+    width: fit-content;
+    height: fit-content;
 }
 
 button:hover {
@@ -171,3 +173,51 @@ h2 {
     font-weight: bold;
     font-size: 24px;
 }
+
+/* Section 4 */
+
+.join-us {
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 170px;
+}
+
+
+.sales {
+    display: flex;
+    background-color: #3882F6;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 5px;
+    width: 1200px;
+    padding: 50px;
+}
+
+.sales-text {
+    width: 50%;
+    
+}
+
+.sales-text > .header {
+    font-size: 24px;
+    font-weight: bolder;
+    margin: 0;
+}
+
+.sales-text > .desc {
+    color: #E5E7EB;
+    margin: 0;
+}
+
+.registration {
+    text-align: center;
+    
+}
+
+.registration > button {
+    border: solid 1px white;
+}
+
